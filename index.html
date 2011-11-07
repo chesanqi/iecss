@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>iecss</title>
+<meta name="keywords" content="css3, css selectors,internet explorer, ie6, ie7, ie8">
+<meta name="description" content="selectivizr is a selectors in Internet Explorer 6-8">
+<link href="style/master.css" rel="stylesheet">
+<link href="style/master2.css" rel="stylesheet">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js "></script>
+<script type="text/javascript" src="js/iecss.js"></script>
+</head>
+<body>
+<div id="a">1111111111111</div>
+<div id="b">22222222222222</div>
+<div class="c">div[class="c"]</div>
+	<dl title="thisisdl">
+		<dt>111-12345</dt>
+		<dd>111-dl[title='thisisdl'] > dd</dd>
+		<dd>
+			<dl>
+				<dt>222-1234</dt>
+				<dd>222-1111</dd>
+				<dd>222-2222</dd>
+				<dd>222-3333</dd>
+				<dd>222-4444</dd>
+			</dl>
+		</dd>
+		<dd><a href="#">链接链接链接链接链接</a></dd>
+		<dd rel="tou_rel">111-dd[rel^='tou']</dd>
+		<dd rel="tou_wei">111-dd[rel^='tou']</dd>
+		<dd rel="rel_wei">111-dd[rel$='wei']</dd>
+		<dd rel="zhongrelzhong">111-dd[rel*='rel']##dl[title='thisisdl'] > dd:last-child</dd>
+	</dl>
+<br />
+<br />
+</body>
+</html>
