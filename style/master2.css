@@ -1,0 +1,24 @@
+*{ background:#fff;}
+div[class="c"]{
+	color:blue;
+	font-size:40px;
+}
+
+dd[rel$='wei'] ~ dd{
+	border-width:4px;
+}
+dd[rel^='tou']{
+	text-align: left;
+	font-family:tahoma;
+	color:blue
+}
+dd[rel$='tou']{
+	text-align: center;
+}
+dd[rel$='wei']{
+	text-align: center;
+}
+
+dd[rel*='zhong']{
+	text-align: right;
+}

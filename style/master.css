@@ -1,0 +1,59 @@
+*{ margin:0; padding:0; font-family:'宋体'}
+a{ color:red; font-size:18px;}
+a:hover{ color:blue; font-weight:bold;}
+div[id="a"]{
+	color:red;
+	font-size:25px;
+}
+div[id="b"]{
+	font-size:70px;
+}
+p{
+	color:red
+}
+p{
+	color:red
+}
+p{
+	color:red
+}
+p{
+	color:red
+}
+dl{ color:#000;
+		border:5px solid #333;
+		padding:10px;
+}
+dt{
+	font-size:18px;
+	font-weight:bold;
+}
+dd{
+	padding-left:20px;
+}
+dl[title='thisisdl']{
+	width:500px;
+	color:red;
+	border-width:2px;
+}
+dl > dt{
+	width:300px;
+	height:25px;
+	background:#666;
+}
+dl[title='thisisdl'] > dt{
+	width:500px;
+	background:#E0DFCC;
+}
+dl[title='thisisdl'] > dd{
+	font-size:12px;
+	margin-bottom:10px;
+	padding:10px;
+	border-bottom:2px dotted #666;
+}
+dl[title='thisisdl'] > dd:last-child{
+	font-weight:bold;
+}
+dl[title='thisisdl'] dd:nth-child(even){
+	text-decoration:underline;
+}
